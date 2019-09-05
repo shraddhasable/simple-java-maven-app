@@ -34,7 +34,13 @@
           </archive>
         </configuration>
       </plugin>
-      
+    
+        <plugin>
+          <groupId>org.apache.tomcat.maven</groupId>
+          <artifactId>tomcat8-maven-plugin</artifactId>
+          <version>2.2</version>
+        </plugin>
+           
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
